@@ -64,5 +64,5 @@ if __name__ == "__main__":
 
     # Setting the threshold of logger to DEBUG
     logger.setLevel(logging.DEBUG)
-    app.run(host='127.0.0.1', port=8001, debug=True)
-# app.run(debug=True) # running the app
+    #app.run(host='127.0.0.1', port=8001, debug=True)
+    app.run(debug=True) # running the app
